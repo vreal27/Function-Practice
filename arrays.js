@@ -18,12 +18,32 @@ var instructors = [
 // ---------------------------
 // 1. Find largest number
 // ---------------------------
+function largestNum(a) {
+	let lnum = 0 
 
+	for(i=0; i < numbers.length; i++)
+		if(a[i] > lnum){
+			lnum = a[i]
+
+		
+	}
+	return lnum 
+}
+
+largestNum(numbers)
 
 // ---------------------------
 // 2. Find longest string
 // ---------------------------
+function longestStr(a){
+	let lstr = ''
 
+	for (i=0; i < a.length; i++)
+		if(a[i].length > lstr.length){
+			lstr = a[i]
+		}
+		return lstr
+}
 
 // ---------------------------
 // 3. Find even numbers
